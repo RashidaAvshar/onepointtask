@@ -23,7 +23,7 @@
 .news .date span{
     display: inline-block;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-indent: 10px;
     
 }
@@ -32,17 +32,19 @@
     background-color: rgba(0, 0, 1, 0.653);    
     color: white;
     position: absolute;
-    bottom: 10px;
-    height: 75px;
+    bottom: 20px;
+    height: 70px;
     z-index: 1;
-    align-items: center;
-    font-size: 20px;
+    align-items: bottom;
+    font-size: 18px;
     width: 100%;
     line-height: 30px;
     margin: ;
     text-indent: 15px;
     
+    
 }
+
 
 
 .left-icon{
@@ -83,8 +85,10 @@ font-size: 45px;
 .boxone{
     border: 2px solid rgb(107, 107, 107);
     border-radius: 5px;
-    margin-left: 40px;
-    width: 208px;
+    border: ;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 274px;
     height: 300px;  
     position: relative;
       
@@ -95,6 +99,7 @@ font-size: 45px;
     height: 156px;
     position: absolute;
     margin-left: 40px;
+    padding: auto;
     
 }
 
@@ -151,6 +156,9 @@ font-size: 45px;
     bottom: 15px;
     left: 150px;
     
-
-
 }
+
+img .test{
+     vertical-align: super;
+}
+
