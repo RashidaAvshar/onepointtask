@@ -28,7 +28,7 @@
     
 }
 .news .title{
-    background-color: rgba(0, 0,.85);    
+    background-color: rgba(0, 0, 1, 0.653);    
     color: white;
     position: absolute;
     bottom: 10px;
@@ -80,19 +80,25 @@ font-size: 45px;
 /* pictures icon */
 
 .boxone{
-    border: 2px solid black;
+    border: 2px solid rgb(107, 107, 107);
     border-radius: 5px;
-    margin-left: 100px;
+    margin-left: 40px;
     width: 208px;
     height: 300px;  
-    position: relative;  
+    position: relative;
+      
 }
 
 .anonce{
     width: 208px;
     height: 156px;
     position: absolute;
+    margin-left: 40px;
     
+}
+
+.boxone .figure .img{
+    border-radius: 10px;
 }
 
 .price{
@@ -108,11 +114,11 @@ font-size: 45px;
 }
 .fa-heart{
     position: absolute;
-    bottom: 210px;
-    right: 15px;
+    bottom: 0,05px;
+    right: 1px;
     color: rgb(20, 15, 15);
     
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .title{
@@ -134,10 +140,15 @@ font-size: 45px;
 }
 .fa-crown {
     position: absolute;
-    bottom: px; 
-
+    bottom: 0,05px;
+    right: 1px;
+    width: 10px;
 
 }
 .fa-gem{
+    bottom: 15px;
+    right: 1px;
+    
+
 
 }
